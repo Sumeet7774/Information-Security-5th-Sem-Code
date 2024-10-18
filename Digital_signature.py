@@ -43,7 +43,7 @@ def verify_signature(message, signature, public_key, n):
 p = 61
 q = 53
 public_key, private_key = rsa_keygen(p, q)
-message = " Sunny Prajapati "
+message = " Sumeet Kapadia "
 print("Message:", message)
 signature = sign_message(message, private_key[0], private_key[1])
 print("Signature:", signature)
